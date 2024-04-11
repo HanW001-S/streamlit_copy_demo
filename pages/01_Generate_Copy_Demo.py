@@ -44,7 +44,7 @@ def main():
         - 브렌드 명: {com_name}
         - 브렌드 핵심 가치: {value}
         - 제품 특징: {strenghth}
-        - 톤엔 매너: {tone_manner}
+        - 톤 & 매너: {tone_manner}
         - 필수 포함 키워드: {keyword}
         '''
         st.info(askGpt(prompt))
